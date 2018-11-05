@@ -1,0 +1,131 @@
+/* Global code here */
+body {
+    background: url(../images/cool-background.png);
+    background-repeat: repeat;
+    width: 960px;    
+}
+
+.column {
+    float: left;
+    width: 10%;
+}
+
+.column.side {
+    width: 25%;
+}
+
+.column.middle {
+    width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+ol{
+	list-style: decimal inside; 
+}
+ul {
+	list-style: disc inside;
+    text-indent: 20px;
+}
+
+/* First box code here */
+#box {
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+#titlebox {
+    height: 150px;
+    width: 400px;
+    background-color: #c67229;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: bold;
+}
+/* Second box code here */
+#box1 {
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.infobox {
+    height: 400px;
+    width: 400px;
+    background-color: rgb(247, 213, 169);
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 25px;
+}
+
+p {
+    color: #008000;
+}
+
+/* Div box code here */
+#bigBox {
+    margin: 35px 0 0 10px;
+    width: 550px;
+    height: 250px;
+    position: relative;
+    background-color: black;
+}
+
+/* Third box code here */
+.square {
+    height: 100px;
+    width: 200px;
+    background-color: #07a769;
+}
+/* Fourth box code here */
+.scorebox {
+    height: 100px;
+    width: 200px;
+    background-color: #04ffff;
+    float: right;
+    position: relative;
+}
+
+#blue{
+	color: #3092c7;
+}
+#green{
+	color: #00aa59;
+}
+#red{
+	color: #ec4b5f;
+}
+#yellow{
+	color: #ffc225;
+}
+
+.numberToMatch, .winsAndLosses{
+	float: left;
+	width: 15%;
+	height: 60px;
+}
+.userTotal{
+	width: 15%;
+	height: 60px;
+}
+.gems{
+	clear: both;
+}
+.gemImage{
+	height: 60px;
+	margin: 10px;
+}
+
+div.header, div.gems{
+	background-color: #e0e0eb;
+}
+div.header, div.instructions{
+	width: 50%;
+}
